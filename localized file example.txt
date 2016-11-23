@@ -1,0 +1,3 @@
+0		
+1	Ce texte est en français !	This text is in english!
+2	Ne mélangez pas différentes fins de ligne.	Don't mix different line endings.
