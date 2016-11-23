@@ -38,7 +38,7 @@ public class Localization : MonoBehaviour
         }
 
 
-        // Get the rows from the TextAsset
+        // Get the rows from the TextAsset. If you don't use CRLF line endings, replace "\r\n" by "\n"
         string[] rows = localizationFile.text.Split(new string[] { "\r\n" }, System.StringSplitOptions.RemoveEmptyEntries);
 
 
